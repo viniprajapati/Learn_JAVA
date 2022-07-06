@@ -14,6 +14,6 @@ public class Main {
 
         Person person2 = new Nonvegan();
         person2.speak();
-        person2.eat();
+        person2 .eat();
     }
 }
