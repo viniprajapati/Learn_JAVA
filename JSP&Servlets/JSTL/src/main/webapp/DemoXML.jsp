@@ -59,7 +59,7 @@
 							
 							<td> <x:out select="age"/> </td>	
 						</tr>
-					</x:when>
+					</x:when> 
 				</x:choose>
 			</x:forEach>
 		</tbody>
