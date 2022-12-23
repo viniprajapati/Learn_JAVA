@@ -1,0 +1,16 @@
+<Context>
+
+ <Resource
+    name="jdbc/learn_java"
+    auth="Container"
+    type="javax.sql.DataSource"
+    maxActive="25"
+    maxIdle="5"
+    maxWait="10000"
+    driverClassName="com.mysql.cj.jdbc.Drive"
+    url="jdbc:mysql://127.0.0.1:3306/learn_java?useSSL=false"
+    username="vini"
+    password="123456"
+    />
+
+</Context>
